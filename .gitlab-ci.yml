@@ -1,0 +1,13 @@
+pdf:
+  script: 
+     - asciidoctor-pdf -a pdf-stylesdir=resources -n -a pdf-style=sfl analyse.adoc
+  artifacts:
+    paths:
+     - analyse.pdf
+
+html:
+  script: 
+     - asciidoctor analyse.adoc
+  artifacts:
+    paths:
+     - analyse.html
