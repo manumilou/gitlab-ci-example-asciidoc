@@ -1,0 +1,51 @@
+= README
+Emmanuel Milou <emmanuel.milou@savoirfairelinux.com>
+2016-09-01
+GitLab CI Demo: Asciidoc Report
+
+:keywords: SFL, Continuous Integration, AsciiDoc, Asciidoctor
+:page-layout: base
+:page-description: {description}
+:page-keywords: {keywords}
+:toc: right
+ifdef::env-site[]
+:toc: right
+:icons: font
+:toc-placement: preamble
+endif::[]
+ifndef::env-site[]
+:toc: right
+:icons: font
+:idprefix:
+:idseparator: -
+:sectanchors:
+:source-highlighter: highlight.js
+endif::[]
+:experimental:
+:mdash: &#8212;
+:language: asciidoc
+:source-language: {language}
+// Refs
+:doc-asciidoctor: http://asciidoctor.org/docs/asciidoc-recommended-practices/
+
+
+== About this document
+
+The main report uses the Asciidoc syntax generator.
+It is a convenient tool allowing to write documentation in raw text files, and convert them to HTML or PDF later on.
+
+Visit https://github.com/asciidoctor[Asciidoctor @ *GitHub*] for more informations.
+The {doc-asciidoctor}[AsciiDoc Recommanded Practices] is also recommanded.
+
+To generate a HTML version, first install asciidoctor package on your Linux distribution, then issue following command:
+
+ $ asciidoctor analyse.adoc
+
+The analyse.html is generated in the current directory.
+
+Asciidoctor provides a native PDF renderer for Asciidoc. Still in alpha, but worth the try. Please follow the instructions on the official documentation to
+install it, then issue following command:
+
+ $ asciidoctor-pdf -a pdf-stylesdir=resources -n -a pdf-style=sfl analyse.adoc
+
+The analyse.pdf file shall be created in the current directory.

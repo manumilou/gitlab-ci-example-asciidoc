@@ -1,0 +1,52 @@
+= GitLab Ci Demo: Asciidoc Report
+Emmanuel Milou <emmanuel.milou@savoirfairelinux.com>
+:revdate: 2016-09-01
+:revnumber: ~dev
+:revremark: PR-LI-2016XXXX-XXX-FR
+:version-label!:
+:toc: left
+:toc-title: Table des matières
+:toclevels: 3
+:description: Document d'exemple
+:keywords: continuous integration, gitlab ci, asciidoc
+:icons: font
+:showtitle:
+:page-description: {description}
+:page-keywords: {keywords}
+:experimental:
+:language: asciidoc
+:imagesdir: assets
+
+
+.À l'attention de:
+Tara Morgan,
+Eunixis Corp
+
+== À propos du document
+
+_Version_: {revnumber}
+
+_Date de la version_: {revdate}
+
+_Référence_: {revremark}
+
+
+Pour un vrai exemple de rapport Asciidoc, allez voir: https://gitlab.savoirfairelinux.com/emmanuel.milou/stm_poc_portail
+
+<<<
+
+== Introduction
+
+=== Contexte
+
+Contexte.
+
+=== Objectifs
+
+Objectifs.
+
+=== Livrable
+
+Livrable.
+
+<<<

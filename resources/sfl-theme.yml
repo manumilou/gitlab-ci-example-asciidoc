@@ -1,0 +1,57 @@
+page:
+  layout: portrait
+  margin: [0.75in, 1in, 0.75in, 1in]
+  size: Letter
+base:
+  font_color: #565656
+  font_family: Times-Roman
+  font_size: 12
+  line_height_length: 17
+  line_height: $base_line_height_length / $base_font_size
+vertical_rhythm: $base_line_height_length
+title:
+  page_align: center
+  #page_background_image: image:../assets/introduction.jpg[]
+  page_background_color: #303336
+  page_logo_align: center
+  page_logo_image: image:../assets/logo2.png[scaledwidth=40%]
+  page_title_top: 45%
+  page_title_font_size: 28
+  page_title_font_color: #cccccc
+  page_subtitle_font_size: 22
+  page_subtitle_font_color: #999999
+  page_subtitle_font_style: bold_italic
+  page_authors_margin_top: 13.125
+  page_authors_font_size: $base_font_size_large
+  page_authors_font_color: #999999
+heading:
+  h3_font_color: #303336
+  h2_font_color: #56b0c9
+  font_size: 17
+  font_style: bold
+  line_height: 1.2
+  margin_bottom: $vertical_rhythm
+link:
+  font_color: #428bca
+outline_list:
+  indent: $base_font_size * 1.5
+header:
+  height: 0.75in
+  line_height: 1
+  recto_content:
+    center: "Savoir-faire Linux Inc. - PR-LI-20160330-STM-FR"
+  verso_content:
+    center: 'Savoir-faire Linux Inc. - PR-LI-20160330-STM-FR'
+footer:
+  height: 0.75in
+  line_height: 1
+  recto_content:
+    right: '{chapter-title} | *{page-number}*'
+  verso_content:
+    left: '*{page-number}* | {chapter-title}'
+image:
+  align: center
+caption:
+  align: center
+  font_color: #333333
+  font_size: 10

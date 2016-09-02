@@ -1,0 +1,13 @@
+= Changelog
+
+Tous les changements notables au document d'analyse doivent apparaitre ici.
+
+This file should respect change log http://keepachangelog.com/[best practices].
+This project adheres to http://semver.org/[Semantic Versioning].
+
+== Unreleased
+
+=== Ajouté
+
+* Ajout d'une structure de dépôt Asciidoc simple
+* Création d'un fichier gitlab-ci.yml
