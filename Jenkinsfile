@@ -1,7 +1,5 @@
 node {
-    
-    git branch:'master', url:'git@github.com:manumilou/gitlab-ci-example-asciidoc.git'
-    
+     
     docker.image('rochdev/alpine-asciidoctor:mini').inside {
         stage "html"
         sh "asciidoctor analyse.adoc"
